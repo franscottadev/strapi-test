@@ -368,6 +368,7 @@ export interface ApiClientClient extends Schema.CollectionType {
     singularName: 'client';
     pluralName: 'clients';
     displayName: 'Clients';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -375,6 +376,7 @@ export interface ApiClientClient extends Schema.CollectionType {
   attributes: {
     formUrl: Attribute.String & Attribute.Required;
     name: Attribute.String;
+    subdomain: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

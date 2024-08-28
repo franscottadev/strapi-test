@@ -4,7 +4,8 @@
   "info": {
     "singularName": "client",
     "pluralName": "clients",
-    "displayName": "Clients"
+    "displayName": "Clients",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +17,9 @@
       "required": true
     },
     "name": {
+      "type": "string"
+    },
+    "subdomain": {
       "type": "string"
     }
   }
