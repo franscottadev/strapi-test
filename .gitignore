@@ -116,3 +116,4 @@ build
 .env.example
 package-lock.json
 yarn.lock
+*.cache
